@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "onekb-software"
+  },
+  "targets": {
+    "onekb-software": {
+      "hosting": {
+        "website": [
+          "onekb-software"
+        ]
+      }
+    }
+  }
+}

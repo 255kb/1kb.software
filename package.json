@@ -1,9 +1,31 @@
 {
+  "name": "1kb.software",
+  "description": "1kb.software website",
+  "version": "1.0.0",
+  "author": {
+    "name": "Guillaume Monnet",
+    "email": "hi@255kb.dev",
+    "url": "https://255kb.dev/"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/255kb/1kb.software",
+  "homepage": "https://1kb.software",
+  "bugs": {
+    "url": "https://github.com/255kb/1kb.software/issues"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "export": "npm run build && next export",
+    "start": "next start",
+    "deploy": "npm run export && firebase deploy --token \"$FIREBASE_TOKEN\" --only hosting"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 2,
+    "printWidth": 80,
+    "trailingComma": "none"
   },
   "dependencies": {
     "next": "latest",
@@ -11,8 +33,11 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@types/react": "^17.0.19",
     "autoprefixer": "^10.2.6",
+    "firebase-tools": "^9.16.5",
     "postcss": "^8.3.5",
-    "tailwindcss": "^2.2.4"
+    "tailwindcss": "^2.2.4",
+    "typescript": "^4.3.5"
   }
 }

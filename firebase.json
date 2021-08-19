@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "out",
+    "ignore": [
+      ".firebaserc",
+      "database.rules.json",
+      "firebase.json",
+      "package.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
