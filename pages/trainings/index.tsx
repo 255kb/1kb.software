@@ -90,7 +90,7 @@ const TrainingIndex: FunctionComponent = () => {
                   </p>
 
                   <a
-                    href="/training/angular/"
+                    href="/trainings/angular/"
                     className="fw-bold text-decoration-none"
                   >
                     More info →

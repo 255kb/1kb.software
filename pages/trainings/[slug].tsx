@@ -39,7 +39,7 @@ const TrainingDetails: FunctionComponent<{ training: Training }> = ({
           <div className="row align-items-center">
             <div className="col-12 col-md">
               <a
-                href="/training/"
+                href="/trainings/"
                 className="fw-bold fs-sm text-decoration-none mb-3"
               >
                 ← All trainings

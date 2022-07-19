@@ -68,7 +68,7 @@ const Nav: FunctionComponent = function () {
               <Link href="/trainings/">
                 <a
                   className={`nav-link ${
-                    router.pathname === '/training' ? 'active' : ''
+                    router.pathname === '/trainings' ? 'active' : ''
                   }`}
                 >
                   Training
