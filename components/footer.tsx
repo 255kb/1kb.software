@@ -15,7 +15,7 @@ const Footer: FunctionComponent = function (props) {
               </p>
             </div>
             <div className="col-12 col-md-auto">
-              <Link href="/contact">
+              <Link href="/contact/">
                 <a className="btn btn-primary lift">Contact us</a>
               </Link>
             </div>
@@ -37,7 +37,7 @@ const Footer: FunctionComponent = function (props) {
 
               <ul className="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
                 <li className="mb-3">
-                  <a href="/products#mockoon" className="text-reset">
+                  <a href="/products/#mockoon" className="text-reset">
                     Mockoon
                   </a>
                 </li>
@@ -48,17 +48,17 @@ const Footer: FunctionComponent = function (props) {
 
               <ul className="list-unstyled text-muted mb-0">
                 <li className="mb-3">
-                  <a href="/training/angular" className="text-reset">
+                  <a href="/trainings/angular/" className="text-reset">
                     Angular
                   </a>
                 </li>
                 <li className="mb-3">
-                  <a href="/training/angular-advanced" className="text-reset">
+                  <a href="/trainings/angular-advanced/" className="text-reset">
                     Angular advanced
                   </a>
                 </li>
                 <li className="mb-3">
-                  <a href="/training" className="text-reset">
+                  <a href="/trainings/" className="text-reset">
                     View all trainings →
                   </a>
                 </li>
@@ -69,7 +69,7 @@ const Footer: FunctionComponent = function (props) {
 
               <ul className="list-unstyled text-muted mb-0">
                 <li className="mb-3">
-                  <a href="/contact" className="text-reset">
+                  <a href="/contact/" className="text-reset">
                     Contact us
                   </a>
                 </li>

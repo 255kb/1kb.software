@@ -90,7 +90,7 @@ const Index: FunctionComponent = () => {
                     web services, mobile or desktop applications offering the
                     best user experience.
                     <br />
-                    <Link href={'/products'}>
+                    <Link href={'/products/'}>
                       <a className="fw-bold text-decoration-none">
                         View our products →
                       </a>
@@ -116,7 +116,7 @@ const Index: FunctionComponent = () => {
                     training on various technologies: Javascript, Node.js,
                     Angular, Electron, Ionic, Git, Firebase, etc.
                     <br />
-                    <Link href={'/training'}>
+                    <Link href={'/trainings/'}>
                       <a className="fw-bold text-decoration-none">
                         View our trainings →
                       </a>

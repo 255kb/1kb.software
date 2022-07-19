@@ -39,7 +39,7 @@ const TrainingDetails: FunctionComponent<{ training: Training }> = ({
           <div className="row align-items-center">
             <div className="col-12 col-md">
               <a
-                href="/training"
+                href="/training/"
                 className="fw-bold fs-sm text-decoration-none mb-3"
               >
                 ← All trainings
@@ -48,7 +48,7 @@ const TrainingDetails: FunctionComponent<{ training: Training }> = ({
               <h1 className="display-4 mb-2 d-flex align-items-center">
                 <span className="me-4">
                   <img
-                    src={`/images/training/${training.slug}-logo.png`}
+                    src={`/images/trainings/${training.slug}-logo.png`}
                     alt={`${training.title} logo`}
                     style={{ height: '5rem' }}
                   />
@@ -68,7 +68,7 @@ const TrainingDetails: FunctionComponent<{ training: Training }> = ({
               </div>
             </div>
             <div className="col-auto">
-              <a href="/contact#form" className="btn btn-primary">
+              <a href="/contact/#form" className="btn btn-primary">
                 Get a quote
               </a>
             </div>
@@ -116,10 +116,18 @@ const TrainingDetails: FunctionComponent<{ training: Training }> = ({
                         Guillaume Monnet
                       </div>
                       <div className="h6">
-                        <a href="https://www.linkedin.com/in/guillaumemonnet/">
+                        <a
+                          href="https://www.linkedin.com/in/guillaumemonnet/"
+                          target="_blank"
+                          rel="noopener"
+                        >
                           <SVG name="linkedin"></SVG>
                         </a>{' '}
-                        <a href="https://github.com/255kb">
+                        <a
+                          href="https://github.com/255kb"
+                          target="_blank"
+                          rel="noopener"
+                        >
                           <SVG name="github"></SVG>
                         </a>
                       </div>
@@ -129,7 +137,14 @@ const TrainingDetails: FunctionComponent<{ training: Training }> = ({
                     Guillaume is a full-stack web developer living in
                     Luxembourg. He is passionate about development in general
                     and is currently working on{' '}
-                    <a href="https://mockoon.com">https://mockoon.com</a>.
+                    <a
+                      href="https://mockoon.com"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      https://mockoon.com
+                    </a>
+                    .
                   </p>
                   <h4 className="pb-2 pt-4">Course info</h4>
 
@@ -198,6 +213,8 @@ const TrainingDetails: FunctionComponent<{ training: Training }> = ({
 
                   <a
                     href="/contact#form"
+                    target="_blank"
+                    rel="noopener"
                     className="fw-bold fs-sm text-decoration-none"
                   >
                     Get a quote

@@ -55,7 +55,7 @@ const TrainingIndex: FunctionComponent = () => {
             <div className="col-12 col-md-4">
               <div className="card shadow-light-lg mb-6 mb-md-0 lift lift-lg">
                 <img
-                  src="/images/training/angular-header.png"
+                  src="/images/trainings/angular-header.png"
                   alt="Angular logo"
                   className="card-img-top"
                 />
@@ -90,7 +90,7 @@ const TrainingIndex: FunctionComponent = () => {
                   </p>
 
                   <a
-                    href="/training/angular"
+                    href="/training/angular/"
                     className="fw-bold text-decoration-none"
                   >
                     More info →
@@ -101,7 +101,7 @@ const TrainingIndex: FunctionComponent = () => {
             <div className="col-12 col-md-4">
               <div className="card shadow-light-lg mb-6 mb-md-0 lift lift-lg">
                 <img
-                  src="/images/training/angular-header.png"
+                  src="/images/trainings/angular-header.png"
                   alt="Angular logo"
                   className="card-img-top"
                 />
@@ -136,7 +136,7 @@ const TrainingIndex: FunctionComponent = () => {
                   </p>
 
                   <a
-                    href="/training/angular-advanced"
+                    href="/trainings/angular-advanced/"
                     className="fw-bold text-decoration-none"
                   >
                     More info →

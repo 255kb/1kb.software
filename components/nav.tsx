@@ -54,7 +54,7 @@ const Nav: FunctionComponent = function () {
               </li>
             )}
             <li className="nav-item">
-              <Link href="/products">
+              <Link href="/products/">
                 <a
                   className={`nav-link d-flex align-items-center ${
                     router.pathname === '/products' ? 'active' : ''
@@ -65,7 +65,7 @@ const Nav: FunctionComponent = function () {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/training">
+              <Link href="/trainings/">
                 <a
                   className={`nav-link ${
                     router.pathname === '/training' ? 'active' : ''
@@ -76,7 +76,7 @@ const Nav: FunctionComponent = function () {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/contact">
+              <Link href="/contact/">
                 <a
                   className={`nav-link ${
                     router.pathname === '/contact' ? 'active' : ''
