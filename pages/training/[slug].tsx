@@ -5,7 +5,7 @@ import { Trainings } from '../../data/trainings';
 import Layout from '../../layout/layout';
 import { Training } from '../../models/common.model';
 
-export async function getStaticProps({ params }) {
+export function getStaticProps({ params }) {
   const training = Trainings.find(
     (trainingItem) => trainingItem.slug === params.slug
   );
@@ -13,10 +13,10 @@ export async function getStaticProps({ params }) {
   return { props: { training } };
 }
 
-export async function getStaticPaths() {
+export function getStaticPaths() {
   return {
     paths: Trainings.map((training) => ({ params: { slug: training.slug } })),
-    fallback: true
+    fallback: false
   };
 }
 
