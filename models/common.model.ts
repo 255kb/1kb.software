@@ -13,6 +13,7 @@ export type Training = {
   duration: number;
   dailyRate: number;
   minParticipants: number;
+  nextSessions?: { start: string; end: string }[];
   meta: {
     title: string;
     description: string;

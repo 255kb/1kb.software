@@ -24,7 +24,7 @@ const SVG: FunctionComponent<{
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g fill="none" fill-rule="evenodd">
+          <g fill="none" fillRule="evenodd">
             <path d="M0 0h24v24H0z"></path>
             <path
               d="M3 4h17a1 1 0 011 1v2a1 1 0 01-1 1H3a1 1 0 01-1-1V5a1 1 0 011-1zm7 6h10a1 1 0 011 1v8a1 1 0 01-1 1H10a1 1 0 01-1-1v-8a1 1 0 011-1z"
@@ -49,7 +49,7 @@ const SVG: FunctionComponent<{
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g fill="none" fill-rule="evenodd">
+          <g fill="none" fillRule="evenodd">
             <path d="M0 0h24v24H0z"></path>
             <path
               d="M8 3v.5A1.5 1.5 0 009.5 5h5A1.5 1.5 0 0016 3.5V3h2a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2h2z"
@@ -124,7 +124,7 @@ const SVG: FunctionComponent<{
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g fill="none" fill-rule="evenodd">
+          <g fill="none" fillRule="evenodd">
             <path d="M0 0h24v24H0z"></path>
             <circle fill="#1a76a6" opacity=".3" cx="12" cy="9" r="8"></circle>
             <path
@@ -146,7 +146,7 @@ const SVG: FunctionComponent<{
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g fill="none" fill-rule="evenodd">
+          <g fill="none" fillRule="evenodd">
             <path d="M0 0h24v24H0z"></path>
             <path
               d="M6 8v8h12V8H6zm14 8h1.382a1 1 0 01.894.553L22.5 17a.691.691 0 01-.618 1H2.118a.691.691 0 01-.618-1l.224-.447A1 1 0 012.618 16H4V8a2 2 0 012-2h12a2 2 0 012 2v8z"
@@ -163,7 +163,7 @@ const SVG: FunctionComponent<{
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g fill="none" fill-rule="evenodd">
+          <g fill="none" fillRule="evenodd">
             <path d="M0 0h24v24H0z"></path>
             <path
               d="M7.139 4v15h9.722V4H7.14zm.694-3h8.334c1.406 0 2.083.981 2.083 2.5v17c0 1.519-.677 2.5-2.083 2.5H7.833c-1.406 0-2.083-.981-2.083-2.5v-17c0-1.519.677-2.5 2.083-2.5z"

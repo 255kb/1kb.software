@@ -12,6 +12,17 @@ export const Trainings: Training[] = [
     duration: 3,
     dailyRate: 500,
     minParticipants: 3,
+    nextSessions: [
+      { start: '2022-10-10', end: '2022-10-12' },
+      { start: '2022-11-07', end: '2022-11-09' },
+      { start: '2022-12-05', end: '2022-12-07' },
+      { start: '2023-01-09', end: '2023-01-11' },
+      { start: '2023-02-06', end: '2023-02-08' },
+      { start: '2023-03-06', end: '2023-03-08' },
+      { start: '2023-04-17', end: '2023-04-19' },
+      { start: '2023-05-15', end: '2023-05-17' },
+      { start: '2023-06-19', end: '2023-06-21' }
+    ],
     meta: {
       title: 'Angular training for beginners',
       description:
@@ -113,6 +124,17 @@ export const Trainings: Training[] = [
     duration: 3,
     dailyRate: 500,
     minParticipants: 3,
+    nextSessions: [
+      { start: '2022-10-17', end: '2022-10-19' },
+      { start: '2022-11-14', end: '2022-11-16' },
+      { start: '2022-12-13', end: '2022-12-15' },
+      { start: '2023-01-16', end: '2023-01-18' },
+      { start: '2023-02-20', end: '2023-02-22' },
+      { start: '2023-03-13', end: '2023-03-15' },
+      { start: '2023-04-24', end: '2023-04-26' },
+      { start: '2023-05-22', end: '2023-05-24' },
+      { start: '2023-06-26', end: '2023-06-28' }
+    ],
     meta: {
       title: 'Angular advanced training',
       description:

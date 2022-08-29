@@ -1,3 +1,4 @@
+import { format } from 'date-fns';
 import { FunctionComponent } from 'react';
 import Meta from '../../components/meta';
 import SVG from '../../components/svg';
@@ -23,6 +24,10 @@ export function getStaticPaths() {
 const TrainingDetails: FunctionComponent<{ training: Training }> = ({
   training
 }) => {
+  const validSessions = training.nextSessions.filter(
+    (nextSession) =>
+      new Date().getTime() - new Date(nextSession.start).getTime() < 0
+  );
   const durationHuman = `${training.duration} day${
     training.duration > 1 ? 's' : ''
   }`;
@@ -155,7 +160,10 @@ const TrainingDetails: FunctionComponent<{ training: Training }> = ({
                   <div className="fs-sm mb-5">
                     {training.prerequisites.map(
                       (prerequisite, prerequisiteIndex) => (
-                        <p key={`prerequisite${prerequisiteIndex}`}>
+                        <p
+                          className="mb-0"
+                          key={`prerequisite${prerequisiteIndex}`}
+                        >
                           {prerequisite}
                         </p>
                       )
@@ -194,6 +202,24 @@ const TrainingDetails: FunctionComponent<{ training: Training }> = ({
                     {training.dailyRate * training.duration}€ (excl.
                     VAT)/participant
                   </p>
+
+                  {validSessions.length > 0 && (
+                    <>
+                      <h6 className="fw-bold text-uppercase text-gray-700 mb-2">
+                        Next sessions
+                      </h6>
+
+                      {validSessions.map((nextSession) => (
+                        <p className="fs-sm mb-0">{`${format(
+                          new Date(nextSession.start),
+                          'MMM dd'
+                        )} - ${format(
+                          new Date(nextSession.end),
+                          'MMM dd yyyy'
+                        )}`}</p>
+                      ))}
+                    </>
+                  )}
 
                   <h4 className="pb-2 pt-4">Misc.</h4>
 

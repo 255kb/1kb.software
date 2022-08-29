@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.1.0",
+    "date-fns": "^2.29.2",
     "next": "^11.1.2",
     "next-transpile-modules": "^8.0.0",
     "raw-loader": "^4.0.2",
