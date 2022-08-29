@@ -25,14 +25,38 @@ const Footer: FunctionComponent = function (props) {
       <footer className="py-8 py-md-11 bg-gray-200">
         <div className="container">
           <div className="row">
-            <div className="col-12 col-md-4 col-lg-3">
+            <div className="col-12 col-md-4 col-lg-2">
               <img
                 src="/images/logo-small.png"
                 alt="1kb logo"
                 className="footer-brand img-fluid mb-2"
               />
             </div>
-            <div className="col-6 col-md-4 col-lg-3">
+            <div className="col-6 col-md-4 col-lg-2 offset-lg-2">
+              <h6 className="fw-bold text-uppercase text-gray-700">Services</h6>
+
+              <ul className="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+                <li className="mb-3">
+                  <a
+                    href="/services/#application-development"
+                    className="text-reset"
+                  >
+                    Application development
+                  </a>
+                </li>
+                <li className="mb-3">
+                  <a href="/services/#mvp-development" className="text-reset">
+                    MVP development
+                  </a>
+                </li>
+                <li className="mb-3">
+                  <a href="/services/#code-audit" className="text-reset">
+                    Code audit
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="col-6 col-md-4 col-lg-2">
               <h6 className="fw-bold text-uppercase text-gray-700">Products</h6>
 
               <ul className="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
@@ -43,7 +67,7 @@ const Footer: FunctionComponent = function (props) {
                 </li>
               </ul>
             </div>
-            <div className="col-6 col-md-4 offset-md-4 col-lg-3 offset-lg-0">
+            <div className="col-6 col-md-4 offset-md-4 col-lg-2 offset-lg-0">
               <h6 className="fw-bold text-uppercase text-gray-700">Training</h6>
 
               <ul className="list-unstyled text-muted mb-0">
@@ -64,7 +88,7 @@ const Footer: FunctionComponent = function (props) {
                 </li>
               </ul>
             </div>
-            <div className="col-6 col-md-4 col-lg-3">
+            <div className="col-6 col-md-4 col-lg-2">
               <h6 className="fw-bold text-uppercase text-gray-700">More</h6>
 
               <ul className="list-unstyled text-muted mb-0">

@@ -54,6 +54,28 @@ const Nav: FunctionComponent = function () {
               </li>
             )}
             <li className="nav-item">
+              <Link href="/">
+                <a
+                  className={`nav-link d-flex align-items-center ${
+                    router.pathname === '/' ? 'active' : ''
+                  }`}
+                >
+                  Home
+                </a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/services/">
+                <a
+                  className={`nav-link d-flex align-items-center ${
+                    router.pathname === '/services' ? 'active' : ''
+                  }`}
+                >
+                  Services
+                </a>
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link href="/products/">
                 <a
                   className={`nav-link d-flex align-items-center ${

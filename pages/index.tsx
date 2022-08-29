@@ -58,70 +58,120 @@ const Index: FunctionComponent = () => {
       <section className="py-10 py-md-14">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-12 col-md-10 col-lg-8 text-center">
+            <div className="col-12 col-md-10 col-lg-7 text-center">
               <h2 className="fw-bold">
                 Your one-stop shop for{' '}
                 <span className="text-primary">all your development needs</span>
                 .
               </h2>
 
-              <p className="fs-lg text-muted mb-9">
+              <p className="fs-lg text-muted mb-7 mb-md-9">
                 1kB is your one-stop shop for all your application, APIs, and
                 MVPs development. We also cover your training needs from
                 beginners to more advanced developers.
               </p>
             </div>
           </div>
-          <div className="row pt-6">
-            <div className="col-12 col-lg-6">
-              <div className="row align-items-center mb-8 aos-init aos-animate">
-                <div className="col-4 col-lg-5">
-                  <img
-                    src="/images/products.svg"
-                    alt="..."
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="col-8 col-lg-7">
-                  <h3 className="fw-bold mb-2">Application development</h3>
+          <div className="row gx-4">
+            <div className="col-12 col-lg-6 d-lg-flex mb-4">
+              <div
+                className="card shadow-light-lg overflow-hidden aos-init aos-animate"
+                data-aos="fade-up"
+              >
+                <div className="row">
+                  <div className="col-md-4 position-relative">
+                    <img
+                      src="/images/services.svg"
+                      className="h-75 position-absolute right-0 mt-7 me-n4"
+                      alt="services illustration"
+                    />
+                  </div>
+                  <div className="col-md-8">
+                    <div className="card-body py-7 py-md-9 text-center">
+                      <h4 className="fw-bold">Services</h4>
 
-                  <p className="text-gray-700 mb-0">
-                    We help you bring your business to life by building APIs,
-                    web services, mobile or desktop applications offering the
-                    best user experience.
-                    <br />
-                    <Link href={'/products/'}>
-                      <a className="fw-bold text-decoration-none">
-                        View our products →
-                      </a>
-                    </Link>
-                  </p>
+                      <p className="text-muted">
+                        We help you bring your business to life by building
+                        APIs, web services, mobile or desktop applications
+                        offering the best user experience.
+                      </p>
+                      <p className="mt-4 mb-0">
+                        <Link href={'/services/'}>
+                          <a className="fw-bold text-decoration-none">
+                            View our services →
+                          </a>
+                        </Link>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-12 col-lg-6">
-              <div className="row align-items-center mb-8 aos-init aos-animate">
-                <div className="col-4 col-lg-5">
-                  <img
-                    src="/images/training.svg"
-                    alt="..."
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="col-8 col-lg-7">
-                  <h3 className="fw-bold mb-2">Training</h3>
+            <div className="col-12 col-lg-6 d-lg-flex mb-4">
+              <div
+                className="card shadow-light-lg overflow-hidden text-center aos-init aos-animate"
+                data-aos="fade-up"
+              >
+                <div className="row">
+                  <div className="col-md-8">
+                    <div className="card-body py-7 py-md-9">
+                      <h4 className="fw-bold">Training</h4>
 
-                  <p className="text-gray-700 mb-0">
-                    We help you level up your employee's skills by offering
-                    training on various technologies: Javascript, Node.js,
-                    Angular, Electron, Ionic, Git, Firebase, etc.
-                    <br />
-                    <Link href={'/trainings/'}>
-                      <a className="fw-bold text-decoration-none">
-                        View our trainings →
-                      </a>
-                    </Link>
-                  </p>
+                      <p className="text-muted mb-0">
+                        We help you level up your employee's skills by offering
+                        training on various technologies: Javascript, Node.js,
+                        Angular, Electron, Ionic, Git, Firebase, etc.
+                      </p>
+                      <p className="mt-4 mb-0">
+                        <Link href={'/trainings/'}>
+                          <a className="fw-bold text-decoration-none">
+                            View our trainings →
+                          </a>
+                        </Link>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <img
+                      src="/images/training.svg"
+                      className="h-75 position-absolute left-0 mt-7"
+                      alt="training illustration"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12">
+              <div
+                className="card shadow-light-lg overflow-hidden text-center text-lg-start aos-init aos-animate"
+                data-aos="fade-up"
+              >
+                <div className="row">
+                  <div className="col-md-4 position-relative">
+                    <img
+                      src="/images/products.svg"
+                      className="h-75 position-absolute right-0 mt-6"
+                      alt="products illustration"
+                    />
+                  </div>
+                  <div className="col-md-8">
+                    <div className="card-body py-7 py-md-9">
+                      <h4 className="fw-bold">Products</h4>
+                      <p className="text-muted mb-0">
+                        Discover our products we spent time crafting to provide
+                        the perfect user experience
+                      </p>
+                      <p className="mt-4 mb-0">
+                        <Link href={'/products/'}>
+                          <a className="fw-bold text-decoration-none">
+                            View our products →
+                          </a>
+                        </Link>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
