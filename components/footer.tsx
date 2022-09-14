@@ -82,6 +82,14 @@ const Footer: FunctionComponent = function (props) {
                   </a>
                 </li>
                 <li className="mb-3">
+                  <a
+                    href="/trainings/introduction-rest-apis/"
+                    className="text-reset"
+                  >
+                    Introduction to REST APIs
+                  </a>
+                </li>
+                <li className="mb-3">
                   <a href="/trainings/" className="text-reset">
                     View all trainings →
                   </a>
@@ -89,7 +97,7 @@ const Footer: FunctionComponent = function (props) {
               </ul>
             </div>
             <div className="col-6 col-md-4 col-lg-2">
-              <h6 className="fw-bold text-uppercase text-gray-700">More</h6>
+              <h6 className="fw-bold text-uppercase text-gray-700">About</h6>
 
               <ul className="list-unstyled text-muted mb-0">
                 <li className="mb-3">

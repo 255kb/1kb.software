@@ -239,7 +239,6 @@ const TrainingDetails: FunctionComponent<{ training: Training }> = ({
 
                   <a
                     href="/contact#form"
-                    target="_blank"
                     rel="noopener"
                     className="fw-bold fs-sm text-decoration-none"
                   >

@@ -98,6 +98,7 @@ const TrainingIndex: FunctionComponent = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-12 col-md-4">
               <div className="card shadow-light-lg mb-6 mb-md-0 lift lift-lg">
                 <img
@@ -137,6 +138,64 @@ const TrainingIndex: FunctionComponent = () => {
 
                   <a
                     href="/trainings/angular-advanced/"
+                    className="fw-bold text-decoration-none"
+                  >
+                    More info →
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="py-8 py-md-11 bg-gradient-light-white">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-12 col-md-10 col-lg-8 text-center">
+              <span className="badge rounded-pill bg-success-soft mb-3">
+                <span className="h6 text-uppercase">Web</span>
+              </span>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-12 col-md-4">
+              <div className="card shadow-light-lg mb-6 mb-md-0 lift lift-lg">
+                <img
+                  src="/images/trainings/introduction-rest-apis-header.png"
+                  alt="API word and cog logo"
+                  className="card-img-top"
+                />
+
+                <div className="position-relative">
+                  <div className="shape shape-bottom shape-fluid-x svg-shim text-white">
+                    <svg
+                      viewBox="0 0 2880 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+
+                <div className="card-body position-relative">
+                  <div className="position-relative text-end mt-n8 me-n4 mb-3">
+                    <span className="badge rounded-pill bg-primary-desat">
+                      <span className="h6 text-uppercase">All levels</span>
+                    </span>
+                  </div>
+
+                  <h3>Introduction to REST APIs</h3>
+
+                  <p className="text-muted">
+                    Learn how to design, build, test and manage REST APIs
+                  </p>
+
+                  <a
+                    href="/trainings/introduction-rest-apis/"
                     className="fw-bold text-decoration-none"
                   >
                     More info →

@@ -11,7 +11,7 @@ export const Trainings: Training[] = [
     ],
     duration: 3,
     dailyRate: 500,
-    minParticipants: 3,
+    minParticipants: 2,
     nextSessions: [
       { start: '2022-10-10', end: '2022-10-12' },
       { start: '2022-11-07', end: '2022-11-09' },
@@ -123,7 +123,7 @@ export const Trainings: Training[] = [
     ],
     duration: 3,
     dailyRate: 500,
-    minParticipants: 3,
+    minParticipants: 2,
     nextSessions: [
       { start: '2022-10-17', end: '2022-10-19' },
       { start: '2022-11-14', end: '2022-11-16' },
@@ -197,6 +197,98 @@ export const Trainings: Training[] = [
           'Testing services',
           'Writing end-to-end tests with Protractor'
         ]
+      }
+    ]
+  },
+  {
+    slug: 'introduction-rest-apis',
+    title: 'Introduction to REST APIs',
+    prerequisites: [
+      'Basic knowledge of web technologies',
+      'Basic knowledge of programming tools (VSCode, terminal, etc.)',
+      'Knowledge of the JavaScript programming language is recommended'
+    ],
+    duration: 3,
+    dailyRate: 500,
+    minParticipants: 2,
+    nextSessions: [],
+    meta: {
+      title: 'REST APIs',
+      description:
+        'Get more information about our REST APIs training for developers of all levels and discover the content of the course'
+    },
+    intro: `During this training, you will learn more about REST APIs, how they work, and how to code and test your API.
+    It covers most topics, from the creation or design of an API to its management. It will also teach valuable information about API testing or mocking and the most used standards in the industry.
+    `,
+    tableOfContent: [
+      {
+        title: 'APIs',
+        items: [
+          'Introduction: how the web works?',
+          'Presentation of APIs',
+          'Presentation of Web APIs',
+          'Benefits and real-life use cases'
+        ]
+      },
+      {
+        title: 'REST APIs',
+        items: [
+          'Presentation of REST APIs',
+          'REST APIs principles',
+          'API design best practices',
+          'The OpenAPI standard'
+        ]
+      },
+      {
+        title: 'Authentication introduction',
+        items: [
+          'Authentication and authorization',
+          'API tokens',
+          'OAuth and scopes'
+        ]
+      },
+      {
+        title: 'Anatomy of an API call',
+        items: [
+          'Request components (URL, method, params, etc.)',
+          'Response components (status code, body, etc.)',
+          'Overview of the JSON format'
+        ]
+      },
+      {
+        title: 'Creating your first API',
+        items: [
+          'Running a Node.js and Express server',
+          'Declaring routes',
+          'Serving different types of content',
+          'Adding headers',
+          'Adding a basic token authentication'
+        ]
+      },
+      {
+        title: 'APIs tooling',
+        items: [
+          'Calling/testing APIs',
+          'API mocking',
+          'API design',
+          'API documentation'
+        ]
+      },
+      {
+        title: 'Calling and testing your API',
+        items: ['Using CURL', 'Using Postman']
+      },
+      {
+        title: 'Mocking an API',
+        items: [
+          'Benefits of API mocking',
+          'Presentation of Mockoon',
+          'Creation of a simple mock using Mockoon'
+        ]
+      },
+      {
+        title: 'API management',
+        items: ['Usage metering', 'API gateways']
       }
     ]
   }
