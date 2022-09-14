@@ -213,7 +213,7 @@ export const Trainings: Training[] = [
     minParticipants: 2,
     nextSessions: [],
     meta: {
-      title: 'REST APIs',
+      title: 'Introduction to REST APIs',
       description:
         'Get more information about our REST APIs training for developers of all levels and discover the content of the course'
     },
