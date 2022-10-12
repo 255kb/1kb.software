@@ -13,7 +13,7 @@ const Products: FunctionComponent = () => {
   return (
     <Layout>
       <Meta title={meta.title} description={meta.description} />
-      <section className="py-4 py-md-11">
+      <section className="py-4 py-md-8">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-12 col-md-5 order-md-2">

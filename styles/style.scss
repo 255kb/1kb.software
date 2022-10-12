@@ -20,3 +20,28 @@
 
 // Theme core
 @import 'theme/theme';
+
+.quotation {
+  position: relative;
+  quotes: '“' '”';
+
+  &:before,
+  &:after {
+    position: absolute;
+    color: lighten($primary, 20%);
+    font-size: 3rem;
+  }
+
+  &:before {
+    content: open-quote;
+    top: 0;
+    left: 0;
+  }
+
+  &:after {
+    content: close-quote;
+    right: 0;
+    top: auto;
+    bottom: 0;
+  }
+}

@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { FunctionComponent } from 'react';
+import Logos from '../components/logos';
 import Meta from '../components/meta';
+import { CompanyLogos } from '../data/logos';
 import Layout from '../layout/layout';
 
 const meta = {
@@ -55,7 +57,9 @@ const Index: FunctionComponent = () => {
         </div>
       </section>
 
-      <section className="py-10 py-md-14">
+      <Logos logos={CompanyLogos}></Logos>
+
+      <section className="py-10 py-md-12 border-top bg-gradient-light-white">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-12 col-md-10 col-lg-7 text-center">
@@ -72,6 +76,53 @@ const Index: FunctionComponent = () => {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="pb-10 pb-md-12">
+        <div className="container">
+          <h4 className="text-muted text-center pb-6 fw-bold">
+            Client testimonials
+          </h4>
+          <div className="row justify-content-around">
+            <div className="col-12 col-lg-4">
+              <blockquote className="blockquote mb-8 mb-lg-0">
+                <div className="img-fluid mb-5 mb-md-6">
+                  <img
+                    src="/images/logos/hubfinance.png"
+                    style={{ maxWidth: '40%' }}
+                    alt="Hubfinance logo"
+                  />
+                </div>
+
+                <p className="quotation p-5 lead text-gray-700 mb-0">
+                  1kB has done a great job assisting us with our website
+                  development. They gave us helpful advice, were easy to
+                  communicate with, and delivered the requested work on time.
+                </p>
+                <div className="d-flex align-items-center">
+                  <img
+                    className="img-thumbnail avatar-xl avatar-img rounded-circle mr-4"
+                    src="/images/testimonials/fabien-amoretti.jpg"
+                    alt="Founder @ Hubfinance"
+                    width={128}
+                    height={128}
+                  />
+                  <div className="ps-5">
+                    <p className="fs-sm fw-bold mb-0">Fabien Amoretti</p>
+                    <p className="fs-sm text-muted mb-0">
+                      Founder @ Hubfinance
+                    </p>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-10 py-md-12">
+        <div className="container">
           <div className="row gx-4">
             <div className="col-12 col-lg-6 d-lg-flex mb-4">
               <div

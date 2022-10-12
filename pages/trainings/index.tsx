@@ -1,5 +1,7 @@
 import { FunctionComponent } from 'react';
+import Logos from '../../components/logos';
 import Meta from '../../components/meta';
+import { TrainingLogos } from '../../data/logos';
 import Layout from '../../layout/layout';
 
 const meta = {
@@ -11,8 +13,9 @@ const meta = {
 const TrainingIndex: FunctionComponent = () => {
   return (
     <Layout>
-      <Meta title={meta.title} description={meta.description} />{' '}
-      <section className="py-4 py-md-11">
+      <Meta title={meta.title} description={meta.description} />
+
+      <section className="py-4 py-md-8">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-12 col-md-5 order-md-2">
@@ -35,6 +38,9 @@ const TrainingIndex: FunctionComponent = () => {
           </div>
         </div>
       </section>
+
+      <Logos logos={TrainingLogos}></Logos>
+
       <section className="py-8 py-md-11 bg-gradient-light-white">
         <div className="container">
           <div className="row justify-content-center">

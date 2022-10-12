@@ -1,6 +1,8 @@
 import { FunctionComponent } from 'react';
+import Logos from '../components/logos';
 import Meta from '../components/meta';
 import SVG from '../components/svg';
+import { ServicesLogos } from '../data/logos';
 import Layout from '../layout/layout';
 
 const meta = {
@@ -12,7 +14,7 @@ const Services: FunctionComponent = () => {
   return (
     <Layout>
       <Meta title={meta.title} description={meta.description} />
-      <section className="py-4 py-md-11">
+      <section className="py-4 py-md-8">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-12 col-md-5 order-md-2">
@@ -35,6 +37,8 @@ const Services: FunctionComponent = () => {
           </div>
         </div>
       </section>
+
+      <Logos logos={ServicesLogos}></Logos>
 
       <section
         className="py-8 py-md-11 bg-gradient-light-white border-top"
