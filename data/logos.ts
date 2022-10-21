@@ -21,6 +21,11 @@ export const ServicesLogos = [
     src: '/images/logos/hubfinance.png',
     alt: 'Hubfinance logo',
     link: 'https://www.hubfinance.com/'
+  },
+  {
+    src: '/images/logos/smashing-magazine.svg',
+    alt: 'Smashing magazine logo',
+    link: 'https://www.smashingmagazine.com/'
   }
 ];
 
