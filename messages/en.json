@@ -1,0 +1,99 @@
+{
+  "common": {
+    "language": { "fr": "French", "en": "English", "switchToFr": "Switch to French", "switchToEn": "Switch to English" },
+    "nav": {
+      "solutions": "Services", "products": "Products", "training": "Training", "about": "About", "contact": "Contact",
+      "openMenu": "Open menu", "closeMenu": "Close menu", "navigation": "Navigation",
+      "solutionsMenu": { "benefits": "Our services", "items": { "applicationDevelopment": "Applications & MVPs", "codeAudit": "Code & security audits", "hostingManagement": "Hosting & management" } }
+    },
+    "back": "Back",
+    "footer": {
+      "description": "Luxembourg-based software engineers building web and mobile applications, APIs, and developer tools.",
+      "columns": { "company": "Company", "resources": "Products & contact", "legal": "Legal" },
+      "links": { "about": "About", "methodology": "Training", "solutions": "Services", "products": "Mockoon", "contactUs": "Contact us", "privacy": "Privacy", "terms": "Terms" },
+      "copyright": "All rights reserved.", "tagline": "Software built for the people who use it—and the teams who maintain it."
+    }
+  },
+  "insights": { "title": "Articles", "subtitle": "No articles are published yet.", "readMore": "Read more" },
+  "solutions": {
+    "index": {
+      "hero": { "badge": "From idea to production", "title": "Our services", "subtitle": "Build your application, review its code and security, and keep your stack running. We also guide AI-assisted development and audit AI-generated applications." },
+      "cta": "Learn more",
+      "cards": {
+        "applicationDevelopment": { "title": "Applications & MVPs", "description": "From a first prototype to a production application: web, mobile, APIs and internal tools. Build with us or get expert guidance and steering during AI-assisted development." },
+        "codeAudit": { "title": "Code & security audits", "description": "Review architecture, security, performance and maintainability, including AI-generated applications. Get prioritized findings and a practical improvement plan." },
+        "hostingManagement": { "title": "Hosting & stack management", "description": "Deploy and maintain your applications, APIs and supporting services. We help with hosting choices, releases, monitoring, backups and ongoing updates." }
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Software development · Luxembourg", "titlePrefix": "We build", "titleAccent": "reliable web, mobile, and API applications", "titleSuffix": ".",
+      "subtitle": "A Luxembourg-based engineering team helping you ship new products, audit existing codebases, run your stack, and train your developers.",
+      "primary": "Contact us", "secondary": "View our services", "trust": "Clients and training partners"
+    },
+    "offerings": {
+      "title": "Engineering, products, and training under one roof.",
+      "subtitle": "Work directly with experienced developers across the full lifecycle—building applications, auditing code, managing hosting, or upskilling your team.",
+      "services": { "title": "Services", "body": "Application and MVP development, AI-assisted development guidance, code and security audits, and hosting and stack management: support from your first idea to production.", "cta": "View our services" },
+      "training": { "title": "Training", "body": "Hands-on team training in JavaScript, TypeScript, Node.js, Angular, Electron, Ionic, Git, and Firebase—plus custom workshops tailored to your stack.", "cta": "View our training" },
+      "products": { "title": "Products", "body": "We created Mockoon, an open-source API mocking tool used by thousands of teams to design, simulate, and test REST APIs locally or in CI.", "cta": "View our products" }
+    },
+    "testimonial": { "title": "Client testimonials", "quote": "1kB has done a great job assisting us with our website development. They gave us helpful advice, were easy to communicate with, and delivered the requested work on time.", "role": "Founder @ Hubfinance" },
+    "cta": { "title": "Have a project or training need in mind?", "body": "Tell us where you are—we'll help you scope the next step.", "primary": "Contact us" }
+  },
+  "products": {
+    "metrics": {
+      "title": "Built over time. Used at scale.",
+      "years": { "value": "Since 2017", "label": "Actively maintained", "body": "Free and open-source tools, shaped by the developer community." },
+      "downloads": { "value": "1M+", "label": "Downloads", "body": "Plus millions of Docker image pulls for automated workflows and CI pipelines." },
+      "companies": { "value": "Fortune 500", "label": "Used by enterprise teams", "body": "Used by Fortune 500 companies and international organizations, including Vodafone, Ford and Amadeus." }
+    },
+    "badge": "Mockoon", "title": "Build faster. Test with confidence.", "subtitle": "We built Mockoon to make API mocking simple. Design and run mock APIs locally, test integrations and keep development moving without waiting for a backend.", "visit": "Visit Mockoon's website", "screenshotAlt": "Mockoon desktop application for designing and running mock REST APIs", "featuresTitle": "Free, open-source API mocking", "allFeatures": "Explore all Mockoon features",
+    "mockoon": { "title": "Mockoon: powerful API mocking", "body": "Mockoon lets you design and run mock REST APIs in seconds—locally, with no account and no remote setup. Built and maintained by 1kB as free, open-source software." },
+    "features": {
+      "responses": { "title": "Test more than the happy path", "body": "Create multiple responses for each route, match requests with rules and simulate latency or errors. Customize headers, status codes and bodies, or test real-time behavior with WebSockets and callbacks." },
+      "data": { "title": "Realistic, stateful data", "body": "Generate dynamic responses with templates and request values. Use JSON data buckets with CRUD routes to let tests create, read, update and delete records instead of relying on fixed fixtures." },
+      "openapi": { "title": "Work with your API specification", "body": "Import Swagger or OpenAPI definitions to bootstrap a mock, then export your API when you need to share its structure. Serve files and configure CORS or HTTPS to match your integration." },
+      "proxy": { "title": "Record, inspect and proxy", "body": "Inspect request and response logs, capture a real API's behavior and replay it locally. Forward unmatched routes to the real backend while mocking only the endpoints you need." },
+      "automation": { "title": "From desktop to CI", "body": "Design APIs in the desktop application and run them headlessly with the CLI. Use Docker, GitHub Actions or other CI pipelines, or the serverless library for function-based deployments." },
+      "offline": { "title": "Local by default", "body": "The open-source tools work offline without an account or cloud deployment. Run multiple mock APIs and routes without limits, and keep development fixtures under your control." }
+    },
+    "pro": {
+      "title": "Mockoon Pro: tools for teams",
+      "browser": { "title": "An embedded web workspace", "body": "Create and edit mock APIs in the browser, alongside the desktop workflow. Manage running mock deployments on your own infrastructure." },
+      "collaboration": { "title": "Shared APIs, coordinated teams", "body": "Synchronize APIs across devices and collaborate in real time. Manage users with local accounts or OpenID Connect single sign-on, and follow instance activity through an audit trail." },
+      "hosting": { "title": "Self-hosted deployment", "body": "Deploy Mockoon Pro on-premises, in a private cloud or on an isolated network. Your team controls the environment where mock APIs and workspace data are hosted." }
+    }
+  },
+  "training": {
+    "credentials": {
+      "title": "Hundreds of people trained in Luxembourg",
+      "bootcamps": { "title": "Coding bootcamps", "body": "Hands-on developer training with NumericALL and ADEM, helping learners build skills they can apply in real projects." },
+      "professional": { "title": "Professional training", "body": "Training for professionals with Oxiane and Crescera Solutions, from language fundamentals to practical development techniques." },
+      "public": { "title": "Public training organizations", "body": "Courses delivered with CNFPC and the Digital Learning Hub (DLH), making practical digital skills accessible to a broad range of learners." }
+    },
+    "hero": { "badge": "Developer training", "title": "Practical skills. Better software.", "subtitle": "Hands-on courses in APIs, TypeScript, Angular and Git, plus custom training for your team's projects and experience." },
+    "coursesTitle": "Our training courses", "viewCourse": "View the course", "allCourses": "All training courses", "duration": "{days, plural, one {# day} other {# days}}", "topicsTitle": "Major topics", "prerequisitesTitle": "Prerequisites", "methodTitle": "Learning by doing", "methodBody": "Short explanations, guided coding exercises and practical workshops help you apply each concept to a real project.",
+    "nextDates": "Check upcoming dates at DLH", "contact": "Discuss your training needs", "dlhTitle": "Courses at the Digital Learning Hub", "dlhBody": "Individual course pages at DLH are only listed when an upcoming public session is open. Check our trainer page for current dates, or contact us to arrange a private team session.",
+    "customTitle": "Custom training for your team", "customBody": "Choose the topics, depth and pace that fit your team. From language fundamentals to architecture, performance, testing and tooling, we adapt the exercises to your experience and projects. Topics include:",
+    "cta": { "title": "Looking for training for your team?", "body": "Tell us about your team's experience and the skills you want to develop." },
+    "courses": {
+      "api": { "title": "Designing, Building, and Testing Modern APIs", "summary": "Design reliable REST APIs and follow their lifecycle through implementation, documentation, mocking and testing. A practical course for developers working with integrations.", "prerequisites": "Basic knowledge of HTTP, JSON and client-server architecture, and familiarity with a programming language. Postman or curl experience is helpful but not required.", "topics": { "one": "REST principles, HTTP methods, status codes and data formats.", "two": "API design, documentation, versioning and error handling.", "three": "Authentication, authorization and security mechanisms.", "four": "Governance and API lifecycle management.", "five": "Mocking, integration testing and a workshop building and testing your own API." } },
+      "typescript": { "title": "Mastering TypeScript: From JavaScript to Reliable Applications", "summary": "Use static typing to make JavaScript projects more reliable. Build and refactor code with TypeScript while developing practical typing and configuration skills.", "prerequisites": "Solid JavaScript fundamentals and basic HTML and CSS knowledge. Experience with a JavaScript framework is a plus.", "topics": { "one": "Transpilation, compiler configuration, basic types and inference.", "two": "Interfaces, type aliases, classes, enums and typed functions.", "three": "Generics, conditional types, mapped types and utility types.", "four": "Modules and integration into existing JavaScript projects.", "five": "Debugging, refactoring and maintainable typing patterns for larger codebases." } },
+      "angular": { "title": "Building Modern Web Applications with Angular", "summary": "Build a modular Angular application through guided exercises. Learn the core framework concepts, reactive data flow and practical techniques for maintainability, performance and testing.", "prerequisites": "Basic HTML, CSS and JavaScript knowledge, plus an understanding of object-oriented programming. Previous web development experience is recommended.", "topics": { "one": "Angular architecture, TypeScript, application structure and reusable components.", "two": "Templates, data binding, directives, control flow and component communication.", "three": "Services, dependency injection, routing, HTTP and reactive forms.", "four": "RxJS, Signals, state management, OnPush and performance optimization.", "five": "HTTP error handling, unit and integration testing, debugging and an overview of SSR/SSG and libraries." } },
+      "git": { "title": "Mastering Git and GitHub: Practical Collaboration for Modern Teams", "summary": "Make version control a confident part of your daily workflow. Practice managing changes, collaborating through GitHub and resolving common problems in a shared repository.", "prerequisites": "Basic command-line knowledge and confidence managing files. No previous Git or GitHub experience required.", "topics": { "one": "Git setup, local and remote repositories, commits, push and pull.", "two": "Branches, merges, conflict resolution and rebasing.", "three": "GitHub pull requests, code reviews and collaborative workflows.", "four": "Issues, Discussions, Projects, GitHub Flow and Git Flow.", "five": "Commit conventions, troubleshooting and a practical workshop creating and merging a pull request." } }
+    }
+  },
+  "contactForm": { "sending": "Sending…", "success": "Message sent! We will get back to you shortly.", "error": "Your message could not be sent. Please try again or email us at" },
+  "metadata": {
+    "home": { "title": "1kB - Software development", "description": "Application development, code audits, hosting, and developer training in Luxembourg. Creators of Mockoon." },
+    "about": { "title": "About 1kB", "description": "A team of developers based in Luxembourg, building modern applications and services." },
+    "articles": { "title": "Articles", "description": "Articles from 1kB." },
+    "solutions": { "title": "Our services", "description": "Application and MVP development, AI-assisted development guidance, code and security audits, and hosting and stack management." },
+    "contact": { "title": "Contact us", "description": "Contact us to get more information about the services we offer. We will be glad to help you." },
+    "products": { "title": "Our products - Mockoon", "description": "Discover Mockoon, the easiest and quickest way to design and run mock REST APIs." },
+    "privacy": { "title": "Privacy policy", "description": "1kB's privacy policy." },
+    "terms": { "title": "Terms and legal notice", "description": "1kB SARL-S terms of service and legal information." }
+  }
+}

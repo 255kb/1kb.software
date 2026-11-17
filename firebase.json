@@ -1,13 +1,25 @@
 {
-  "hosting": {
-    "public": "out",
-    "ignore": [
-      ".firebaserc",
-      "database.rules.json",
-      "firebase.json",
-      "package.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
-  }
+  "hosting": [
+    {
+      "target": "production",
+      "public": "out",
+      "cleanUrls": true,
+      "redirects": [
+        {
+          "source": "/",
+          "destination": "/en",
+          "type": 302
+        }
+      ],
+      "ignore": [
+        ".firebaserc",
+        "database.rules.json",
+        "firebase.json",
+        "package.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "trailingSlash": false
+    }
+  ]
 }

@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Preview 1kB website",
+			"type": "shell",
+			"command": "npm.cmd run dev -- --webpack --port 3000",
+			"options": {
+				"env": {
+					"NEXT_TELEMETRY_DISABLED": "1"
+				}
+			},
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}

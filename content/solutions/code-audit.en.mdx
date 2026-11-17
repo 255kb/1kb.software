@@ -1,0 +1,37 @@
+---
+slug: code-audit
+title: Code, security and AI-generated application audits
+excerpt: Review security, architecture, dependencies, performance and maintainability, including AI-generated apps, with prioritized findings and practical remediation guidance.
+---
+
+<LandingHero badge="Code and security audits" title="Know what your application is really built on" subtitle="A working application can still hide fragile code, security gaps or operational risks. We review existing products and AI-generated applications to help you understand what to fix, why it matters and where to start." primaryLabel="Discuss an audit" primaryHref="/contact" secondaryLabel="All services" secondaryHref="/services" />
+
+<LandingValueProps title="What we review" items={[
+  { icon: "check", title: "Code security and access control", body: "Review authentication, authorization, input validation, secrets handling and sensitive data flows. Check that permissions are enforced on the server, not just hidden in the interface." },
+  { icon: "code", title: "AI-generated applications", body: "Review generated code for inconsistent patterns, missing checks, unsuitable dependencies and assumptions that only hold in a demo. Examine how generated pieces fit together and whether the team can maintain them." },
+  { icon: "layers", title: "Architecture and maintainability", body: "Assess application boundaries, data models, duplicated logic and coupling. Identify where a small refactor can reduce complexity, and where deeper changes need a plan." },
+  { icon: "api", title: "APIs, data and integrations", body: "Check API contracts, error handling, access to records and interactions with third-party services. Review how failures, retries and sensitive information are handled." },
+  { icon: "git", title: "Dependencies and delivery", body: "Review dependency health, known vulnerability reports, build configuration and release practices. Check test coverage of important behavior rather than relying on a coverage percentage alone." },
+  { icon: "server", title: "Performance and production readiness", body: "Investigate slow queries, unnecessary requests and resource use. Review deployment configuration, logs, monitoring and recovery arrangements, alongside key user journeys and UI consistency." }
+]} />
+
+<LandingSplit leftOverline="Before launch or after handover" leftTitle="An independent review of AI-built apps" leftBody="AI tools can accelerate development, but a convincing interface does not prove that an application is safe or complete. We help founders and teams assess prototypes, inherited code and AI-assisted projects before adding more features or putting real users and data at risk." rightOverline="Questions worth answering" rightTitle="Beyond 'it runs on my machine'" rightSteps={[
+  "Can one user access or change another user's data? Are important checks enforced in the backend?",
+  "Are credentials exposed, sensitive data logged, or third-party integrations configured unsafely?",
+  "Do tests cover failure cases and critical workflows, or only the easiest path through a demo?",
+  "Can the team understand, deploy and maintain the code without relying on the original AI conversation?"
+]} />
+
+<LandingValueProps title="A clear scope and useful outcomes" items={[
+  { icon: "book", title: "Agree on the scope", body: "Define the repositories, environments and business-critical flows to review. Any active security checks require authorization and agreed limits; a code audit is not automatically a full penetration test or compliance certification." },
+  { icon: "check", title: "Review and prioritize", body: "Combine source review, appropriate tooling and agreed checks. Explain the evidence, likely impact and priority of each finding, including uncertainties and areas outside the scope." },
+  { icon: "git", title: "Plan and verify improvements", body: "Deliver a practical remediation roadmap and discuss it with your team. We can help implement fixes and verify the agreed changes as a follow-up." }
+]} />
+
+<LandingOutcomes overline="Deliverables" title="More than a list of warnings" items={[
+  "A readable report of findings, supporting evidence and priorities, with the reviewed scope and limitations.",
+  "Concrete recommendations, separating urgent fixes from longer-term improvements.",
+  "A walkthrough with your team and a plan for remediation and any follow-up checks."
+]} />
+
+<LandingCta title="Unsure whether your application is ready for the next step?" body="Tell us what it does, how it was built and the risks you want to clarify." primaryLabel="Discuss an audit" primaryHref="/contact" />

@@ -1,0 +1,37 @@
+---
+slug: code-audit
+title: Audits de code, de sécurité et d'applications générées par IA
+excerpt: Sécurité, architecture, dépendances, performance et maintenabilité, y compris pour les applications générées par IA, avec des constats priorisés et des recommandations concrètes.
+---
+
+<LandingHero badge="Audits de code et de sécurité" title="Savoir sur quoi repose réellement votre application" subtitle="Une application fonctionnelle peut cacher du code fragile, des failles de sécurité ou des risques d'exploitation. Nous auditons les produits existants et les applications générées par IA pour identifier les corrections utiles et leur ordre de priorité." primaryLabel="Parlons d'un audit" primaryHref="/contact" secondaryLabel="Tous les services" secondaryHref="/services" />
+
+<LandingValueProps title="Ce que nous examinons" items={[
+  { icon: "check", title: "Sécurité du code et contrôle d'accès", body: "Authentification, autorisations, validation des entrées, gestion des secrets et circulation des données sensibles. Nous vérifions que les droits sont contrôlés côté serveur, pas seulement masqués dans l'interface." },
+  { icon: "code", title: "Applications générées par IA", body: "Relecture du code généré pour repérer les incohérences, contrôles manquants, dépendances inadaptées et hypothèses valables uniquement dans une démo. Nous examinons aussi la cohérence de l'ensemble et sa maintenabilité." },
+  { icon: "layers", title: "Architecture et maintenabilité", body: "Découpage de l'application, modèles de données, logique dupliquée et couplage. Nous distinguons les refactorings ciblés des changements structurels qui nécessitent un plan." },
+  { icon: "api", title: "API, données et intégrations", body: "Contrats d'API, gestion des erreurs, accès aux enregistrements et échanges avec les services tiers. Nous examinons le traitement des échecs, des nouvelles tentatives et des informations sensibles." },
+  { icon: "git", title: "Dépendances et livraison", body: "État des dépendances, vulnérabilités connues signalées, configuration des builds et pratiques de livraison. Nous vérifions les tests des comportements importants plutôt qu'un simple pourcentage de couverture." },
+  { icon: "server", title: "Performance et préparation à la production", body: "Requêtes lentes, appels inutiles et consommation de ressources. Nous examinons la configuration du déploiement, les logs, la supervision et la reprise, ainsi que les parcours utilisateurs et la cohérence de l'interface." }
+]} />
+
+<LandingSplit leftOverline="Avant le lancement ou après une reprise" leftTitle="Un regard indépendant sur les applications créées avec l'IA" leftBody="L'IA peut accélérer le développement, mais une interface convaincante ne prouve pas qu'une application est sûre ou complète. Nous aidons les équipes à évaluer prototypes, code repris et projets assistés par IA avant d'ajouter des fonctionnalités ou d'exposer des utilisateurs et leurs données." rightOverline="Les bonnes questions" rightTitle="Au-delà de « ça fonctionne chez moi »" rightSteps={[
+  "Un utilisateur peut-il accéder aux données d'un autre ou les modifier ? Les contrôles importants sont-ils appliqués dans le backend ?",
+  "Des identifiants sont-ils exposés, des données sensibles enregistrées dans les logs ou des intégrations mal configurées ?",
+  "Les tests couvrent-ils les erreurs et les parcours critiques, ou uniquement le scénario le plus simple d'une démo ?",
+  "L'équipe peut-elle comprendre, déployer et maintenir le code sans dépendre de la conversation IA d'origine ?"
+]} />
+
+<LandingValueProps title="Un périmètre clair et des résultats utiles" items={[
+  { icon: "book", title: "Définir le périmètre", body: "Convenir des dépôts, environnements et parcours critiques à examiner. Les vérifications de sécurité actives nécessitent une autorisation et des limites définies. Un audit de code n'est pas automatiquement un test d'intrusion complet ni une certification de conformité." },
+  { icon: "check", title: "Examiner et prioriser", body: "Combiner relecture du code, outils adaptés et vérifications convenues. Expliquer les éléments observés, l'impact probable et la priorité des constats, avec les incertitudes et les limites du périmètre." },
+  { icon: "git", title: "Corriger et vérifier", body: "Fournir un plan de correction concret et le passer en revue avec votre équipe. Nous pouvons accompagner les corrections et vérifier les changements convenus lors d'un suivi." }
+]} />
+
+<LandingOutcomes overline="Livrables" title="Plus qu'une liste d'alertes" items={[
+  "Un rapport lisible avec les constats, leurs éléments de preuve, leurs priorités et les limites de l'audit.",
+  "Des recommandations concrètes qui distinguent les corrections urgentes des améliorations à plus long terme.",
+  "Une restitution avec votre équipe et un plan de correction et de suivi."
+]} />
+
+<LandingCta title="Votre application est-elle prête pour la suite ?" body="Parlons de son fonctionnement, de sa construction et des risques que vous souhaitez clarifier." primaryLabel="Parlons d'un audit" primaryHref="/contact" />

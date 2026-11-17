@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --chrome: #ffffff;
+  --surface-muted: #fafafa;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-chrome: var(--chrome);
+  --color-surface-muted: var(--surface-muted);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* 1kB brand palette */
+  --color-brand-50: #eff8fc;
+  --color-brand-100: #dceff8;
+  --color-brand-200: #b9dfef;
+  --color-brand-300: #85c6e2;
+  --color-brand-400: #49a8cf;
+  --color-brand-500: #258bb9;
+  --color-brand-600: #1a76a6;
+  --color-brand-700: #195e86;
+  --color-brand-800: #1a4f6e;
+  --color-brand-900: #1b425b;
+  --color-brand-950: #102a3c;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #202328;
+    --foreground: #ededed;
+    --chrome: #1c222b;
+    --surface-muted: #24272c;
+    --color-zinc-950: #202328;
+    --color-zinc-900: #252a32;
+    --color-zinc-800: #383e47;
+    --color-zinc-700: #555c66;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
