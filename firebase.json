@@ -1,7 +1,7 @@
 {
   "hosting": [
     {
-      "target": "production",
+      "target": "website",
       "public": "out",
       "cleanUrls": true,
       "redirects": [

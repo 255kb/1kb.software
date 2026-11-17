@@ -13,8 +13,7 @@
     "build": "next build",
     "typecheck": "tsc --noEmit",
     "lint": "eslint",
-    "validate": "npm run typecheck && npm run lint && npm run build",
-    "deploy": "npm run build && firebase deploy --only hosting"
+    "validate": "npm run typecheck && npm run lint && npm run build"
   },
   "dependencies": {
     "@mdx-js/mdx": "^3.1.1",

@@ -20,4 +20,14 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build
-        run: npm run deploy
+        env:
+          NEXT_PUBLIC_SEND_EMAIL_API: ${{ vars.NEXT_PUBLIC_SEND_EMAIL_API || 'https://api.1kb.software/sendEmail' }}
+        run: npm run build
+      - uses: FirebaseExtended/action-hosting-deploy@500ac625ca2dd40cbd15f7659af953801858032a # v0.11.0
+        name: Deploy to Firebase Hosting
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_ONEKB_SOFTWARE }}
+          channelId: live
+          projectId: onekb-software
+          target: website
